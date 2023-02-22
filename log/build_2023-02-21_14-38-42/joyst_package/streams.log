@@ -1,0 +1,23 @@
+[0.019s] Invoking command in '/home/sangjun/joy_ws/build/joyst_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[0.049s] [100%] Built target joyst_node
+[0.054s] Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[0.074s] Invoking command in '/home/sangjun/joy_ws/build/joyst_package': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package
+[0.076s] -- Install configuration: ""
+[0.076s] -- Execute custom install script
+[0.076s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/lib/joyst_package/joyst_node
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/package_run_dependencies/joyst_package
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/parent_prefix_path/joyst_package
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/ament_prefix_path.sh
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/ament_prefix_path.dsv
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/path.sh
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/path.dsv
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.bash
+[0.077s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.sh
+[0.078s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.zsh
+[0.078s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.dsv
+[0.078s] -- Symlinking: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.dsv
+[0.081s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/packages/joyst_package
+[0.081s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/cmake/joyst_packageConfig.cmake
+[0.081s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/cmake/joyst_packageConfig-version.cmake
+[0.081s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.xml
+[0.083s] Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package

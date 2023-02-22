@@ -1,0 +1,12 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/joyst_node.dir/src/joyst.cpp.o[0m
+[ 75%] Built target subst_node
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:8:2:[m[K [01;31m[Kerror: [m[Kinvalid preprocessing directive #PI
+    8 | #[01;31m[KPI[m[K 3.14159265358979;
+      |  [01;31m[K^~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:29:67:[m[K [01;31m[Kerror: [m[K‘[01m[KPI[m[K’ was not declared in this scope
+   29 |         AAA.num1 = (asin(msg->axes[0]) + acos(msg->axes[1]))*(180/[01;31m[KPI[m[K);
+      |                                                                   [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joyst_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

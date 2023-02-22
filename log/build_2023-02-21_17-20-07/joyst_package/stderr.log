@@ -1,0 +1,10 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:31:47:[m[K [01;31m[Kerror: [m[Klvalue required as left operand of assignment
+   31 |         if(msg->axes[0] = 0 && msg->axes[1] = [01;31m[K1[m[K)
+      |                                               [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:33:24:[m[K [01;35m[Kwarning: [m[Kconverting to non-pointer type ‘[01m[Ktutorial_interfaces::msg::Num_<std::allocator<void> >::_num1_type[m[K’ {aka ‘[01m[Kfloat[m[K’} from NULL [[01;35m[K-Wconversion-null[m[K]
+   33 |             AAA.num1 = [01;35m[KNULL[m[K;
+      |                        [01;35m[K^~~~[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joyst_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

@@ -1,0 +1,4 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kfloat Joypubsub::joyangle(const float&, const float&)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:55:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   55 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K

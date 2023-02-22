@@ -1,0 +1,4 @@
+[ 25%] [32mBuilding CXX object CMakeFiles/subst_node.dir/src/subst.cpp.o[0m
+[ 50%] [32mBuilding CXX object CMakeFiles/joyst_node.dir/src/joyst.cpp.o[0m
+[ 75%] [32m[1mLinking CXX executable subst_node[0m
+[ 75%] Built target subst_node

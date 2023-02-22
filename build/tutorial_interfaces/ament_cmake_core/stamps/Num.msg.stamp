@@ -1,0 +1,11 @@
+float32 leftstickangle
+float32 rightstickangle
+float32 dpadangle
+float32 lefttrigger
+float32 righttrigger
+float32 a
+float32 b
+float32 x
+float32 y
+float32 lb
+float32 rb

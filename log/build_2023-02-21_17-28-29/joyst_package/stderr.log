@@ -1,0 +1,14 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:29:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KAAA[m[K’
+   29 |         AAA.num1 = joyangle(msg->axes[0],msg->axes[1])
+      |                                                       [01;31m[K^[m[K
+      |                                                       [32m[K;[m[K
+   30 |         [32m[KAAA[m[K.num2 = msg->axes[1];
+      |         [32m[K~~~[m[K                                            
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kfloat Joypubsub::joyangle(const float&, const float&)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:57:5:[m[K [01;35m[Kwarning: [m[Kcontrol reaches end of non-void function [[01;35m[K-Wreturn-type[m[K]
+   57 |     [01;35m[K}[m[K
+      |     [01;35m[K^[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joyst_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

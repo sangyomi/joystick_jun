@@ -1,0 +1,207 @@
+[0.012s] Invoking command in '/home/sangjun/joy_ws/build/joyst_package': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[0.041s] [ 50%] Built target subst_node
+[0.041s] [ 75%] [32mBuilding CXX object CMakeFiles/joyst_node.dir/src/joyst.cpp.o[0m
+[0.926s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[0.926s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:29:55:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ before ‘[01m[KAAA[m[K’
+[0.926s]    29 |         AAA.num1 = joyangle(msg->axes[0],msg->axes[1])
+[0.927s]       |                                                       [01;31m[K^[m[K
+[0.927s]       |                                                       [32m[K;[m[K
+[0.927s]    30 |         [32m[KAAA[m[K.num2 = msg->axes[1];
+[0.927s]       |         [32m[K~~~[m[K                                            
+[0.932s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kfloat Joypubsub::joyangle(const float&, const float&)[m[K’:
+[0.933s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:47:27:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[0.934s]    47 |             return ((asin([01;31m[Kmsg[m[K->axes[0]))*(180/PI));
+[0.934s]       |                           [01;31m[K^~~[m[K
+[0.934s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:47:27:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[0.934s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.934s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.935s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.935s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[0.935s]    26 | namespace [01;36m[Kmsg[m[K
+[0.935s]       |           [01;36m[K^~~[m[K
+[0.935s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[0.935s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.936s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.936s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.937s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[0.937s]    26 | namespace [01;36m[Kmsg[m[K
+[0.937s]       |           [01;36m[K^~~[m[K
+[0.937s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[0.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[0.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.937s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.937s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.937s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[0.937s]    26 | namespace [01;36m[Kmsg[m[K
+[0.937s]       |           [01;36m[K^~~[m[K
+[0.938s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:19[m[K,
+[0.938s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.938s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.938s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[0.938s]    30 | namespace [01;36m[Kmsg[m[K
+[0.938s]       |           [01;36m[K^~~[m[K
+[0.938s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.938s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.938s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[0.938s]    30 | namespace [01;36m[Kmsg[m[K
+[0.938s]       |           [01;36m[K^~~[m[K
+[0.939s] In file included from [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp:7[m[K,
+[0.939s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:6[m[K:
+[0.939s] [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg[m[K’
+[0.939s]    26 | namespace [01;36m[Kmsg[m[K
+[0.939s]       |           [01;36m[K^~~[m[K
+[0.939s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:51:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[0.939s]    51 |             return (180 - (asin([01;31m[Kmsg[m[K->axes[0]))*(180/PI));
+[0.939s]       |                                 [01;31m[K^~~[m[K
+[0.939s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:51:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[0.939s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[0.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[0.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.939s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.940s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.940s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.941s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[0.941s]    26 | namespace [01;36m[Kmsg[m[K
+[0.941s]       |           [01;36m[K^~~[m[K
+[0.941s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.941s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.942s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.942s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[0.942s]    26 | namespace [01;36m[Kmsg[m[K
+[0.942s]       |           [01;36m[K^~~[m[K
+[0.942s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.942s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.943s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.943s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[0.943s]    26 | namespace [01;36m[Kmsg[m[K
+[0.943s]       |           [01;36m[K^~~[m[K
+[0.943s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:19[m[K,
+[0.943s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.943s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.943s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[0.943s]    30 | namespace [01;36m[Kmsg[m[K
+[0.943s]       |           [01;36m[K^~~[m[K
+[0.943s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.943s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.943s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[0.944s]    30 | namespace [01;36m[Kmsg[m[K
+[0.944s]       |           [01;36m[K^~~[m[K
+[0.944s] In file included from [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp:7[m[K,
+[0.944s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:6[m[K:
+[0.944s] [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg[m[K’
+[0.944s]    26 | namespace [01;36m[Kmsg[m[K
+[0.944s]       |           [01;36m[K^~~[m[K
+[0.944s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:55:33:[m[K [01;31m[Kerror: [m[K‘[01m[Kmsg[m[K’ was not declared in this scope
+[0.944s]    55 |             return (360 + (asin([01;31m[Kmsg[m[K->axes[0]))*(180/PI));
+[0.944s]       |                                 [01;31m[K^~~[m[K
+[0.944s] [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:55:33:[m[K [01;36m[Knote: [m[Ksuggested alternatives:
+[0.944s] In file included from [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/duration.hpp:7[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/duration.hpp:20[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/qos.hpp:20[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node_interfaces/node_graph_interface.hpp:31[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/client.hpp:34[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/callback_group.hpp:23[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:20[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.945s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.946s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.946s] [01m[K/opt/ros/foxy/include/builtin_interfaces/msg/detail/duration__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kbuiltin_interfaces::msg[m[K’
+[0.946s]    26 | namespace [01;36m[Kmsg[m[K
+[0.946s]       |           [01;36m[K^~~[m[K
+[0.946s] In file included from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/metrics_message__struct.hpp:22[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/statistics_msgs/msg/metrics_message.hpp:7[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/libstatistics_collector/collector/generate_statistics_message.hpp:21[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/topic_statistics/subscription_topic_statistics.hpp:23[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/subscription.hpp:50[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/any_executable.hpp:25[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategy.hpp:24[m[K,
+[0.946s]                  from [01m[K/opt/ros/foxy/include/rclcpp/memory_strategies.hpp:18[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor_options.hpp:20[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executor.hpp:33[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/multi_threaded_executor.hpp:26[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:21[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.947s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.947s] [01m[K/opt/ros/foxy/include/statistics_msgs/msg/detail/statistic_data_point__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstatistics_msgs::msg[m[K’
+[0.947s]    26 | namespace [01;36m[Kmsg[m[K
+[0.947s]       |           [01;36m[K^~~[m[K
+[0.947s] In file included from [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/list_parameters_result.hpp:7[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/node.hpp:34[m[K,
+[0.947s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+[0.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+[0.948s]                  from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+[0.948s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[0.948s] [01m[K/opt/ros/foxy/include/rcl_interfaces/msg/detail/list_parameters_result__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Krcl_interfaces::msg[m[K’
+[0.948s]    26 | namespace [01;36m[Kmsg[m[K
+[0.948s]       |           [01;36m[K^~~[m[K
+[0.948s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:19[m[K,
+[0.948s]                  from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.948s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.948s] [01m[K/opt/ros/foxy/include/std_msgs/msg/detail/header__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Kstd_msgs::msg[m[K’
+[0.948s]    30 | namespace [01;36m[Kmsg[m[K
+[0.948s]       |           [01;36m[K^~~[m[K
+[0.948s] In file included from [01m[K/opt/ros/foxy/include/sensor_msgs/msg/joy.hpp:7[m[K,
+[0.949s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:5[m[K:
+[0.949s] [01m[K/opt/ros/foxy/include/sensor_msgs/msg/detail/joy__struct.hpp:30:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ksensor_msgs::msg[m[K’
+[0.949s]    30 | namespace [01;36m[Kmsg[m[K
+[0.949s]       |           [01;36m[K^~~[m[K
+[0.949s] In file included from [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp:7[m[K,
+[0.949s]                  from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:6[m[K:
+[0.949s] [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp:26:11:[m[K [01;36m[Knote: [m[K  ‘[01m[Ktutorial_interfaces::msg[m[K’
+[0.949s]    26 | namespace [01;36m[Kmsg[m[K
+[0.949s]       |           [01;36m[K^~~[m[K
+[2.010s] make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+[2.010s] make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joyst_node.dir/all] Error 2
+[2.011s] make: *** [Makefile:146: all] Error 2
+[2.012s] Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '2': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8

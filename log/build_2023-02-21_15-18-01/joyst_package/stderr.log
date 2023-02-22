@@ -1,0 +1,6 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:16:5:[m[K [01;31m[Kerror: [m[Knon-static data member declared with placeholder ‘[01m[Kauto[m[K’
+   16 |     [01;31m[Kauto[m[K AAA = Num();
+      |     [01;31m[K^~~~[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joyst_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

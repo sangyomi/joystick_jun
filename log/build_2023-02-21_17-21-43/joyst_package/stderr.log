@@ -1,0 +1,3 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:31:25:[m[K [01;35m[Kwarning: [m[Ksuggest parentheses around assignment used as truth value [[01;35m[K-Wparentheses[m[K]
+   31 |         if(msg->axes[0] = 0 && msg->axes[1] > 0)

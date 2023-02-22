@@ -1,0 +1,43 @@
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:29:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KLeftStickAngle[m[K’; did you mean ‘[01m[Kleftstickangle[m[K’?
+   29 |         controljoystick.[01;31m[KLeftStickAngle[m[K = joyangle(msg->axes[0],msg->axes[1]);
+      |                         [01;31m[K^~~~~~~~~~~~~~[m[K
+      |                         [32m[Kleftstickangle[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:30:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KRightStickAngle[m[K’; did you mean ‘[01m[Krightstickangle[m[K’?
+   30 |         controljoystick.[01;31m[KRightStickAngle[m[K = joyangle(msg->axes[3],msg->axes[4]);
+      |                         [01;31m[K^~~~~~~~~~~~~~~[m[K
+      |                         [32m[Krightstickangle[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:31:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KDpadAngle[m[K’; did you mean ‘[01m[Kdpadangle[m[K’?
+   31 |         controljoystick.[01;31m[KDpadAngle[m[K = joyangle(msg->axes[6],msg->axes[7]);
+      |                         [01;31m[K^~~~~~~~~[m[K
+      |                         [32m[Kdpadangle[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:32:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KLeftTrigger[m[K’; did you mean ‘[01m[Klefttrigger[m[K’?
+   32 |         controljoystick.[01;31m[KLeftTrigger[m[K = msg->axes[2];
+      |                         [01;31m[K^~~~~~~~~~~[m[K
+      |                         [32m[Klefttrigger[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:33:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KRightTrigger[m[K’; did you mean ‘[01m[Krighttrigger[m[K’?
+   33 |         controljoystick.[01;31m[KRightTrigger[m[K = msg->axes[5];
+      |                         [01;31m[K^~~~~~~~~~~~[m[K
+      |                         [32m[Krighttrigger[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:34:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KA[m[K’
+   34 |         controljoystick.[01;31m[KA[m[K = msg->buttons[0];
+      |                         [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:35:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KB[m[K’
+   35 |         controljoystick.[01;31m[KB[m[K = msg->buttons[1];
+      |                         [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:36:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KX[m[K’
+   36 |         controljoystick.[01;31m[KX[m[K = msg->buttons[2];
+      |                         [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:37:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KY[m[K’
+   37 |         controljoystick.[01;31m[KY[m[K = msg->buttons[3];
+      |                         [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:38:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KLB[m[K’
+   38 |         controljoystick.[01;31m[KLB[m[K = msg->buttons[4];
+      |                         [01;31m[K^~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:39:25:[m[K [01;31m[Kerror: [m[K‘[01m[Kusing Num = using Num = struct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’ {aka ‘[01m[Kstruct tutorial_interfaces::msg::Num_<std::allocator<void> >[m[K’} has no member named ‘[01m[KRB[m[K’
+   39 |         controljoystick.[01;31m[KRB[m[K = msg->buttons[5];
+      |                         [01;31m[K^~[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:139: CMakeFiles/joyst_node.dir/all] Error 2
+make[1]: *** Waiting for unfinished jobs....
+make: *** [Makefile:146: all] Error 2

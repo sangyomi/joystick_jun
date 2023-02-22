@@ -1,0 +1,65 @@
+[ 50%] [32mBuilding CXX object CMakeFiles/joyst_node.dir/src/joyst.cpp.o[0m
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:9:13:[m[K [01;31m[Kerror: [m[K‘[01m[Kcpp_pubsub[m[K’ does not name a type
+    9 | using Num = [01;31m[Kcpp_pubsub[m[K::msg::Num;
+      |             [01;31m[K^~~~~~~~~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:15:23:[m[K [01;31m[Kerror: [m[K‘[01m[KNum[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces::msg::Num[m[K’?
+   15 |     rclcpp::Publisher<[01;31m[KNum[m[K>::SharedPtr j_pub;
+      |                       [01;31m[K^~~[m[K
+      |                       [32m[Ktutorial_interfaces::msg::Num[m[K
+In file included from [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp:7[m[K,
+                 from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:6[m[K:
+[01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktutorial_interfaces::msg::Num[m[K’ declared here
+  121 | using [01;36m[KNum[m[K =
+      |       [01;36m[K^~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:15:26:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   15 |     rclcpp::Publisher<Num[01;31m[K>[m[K::SharedPtr j_pub;
+      |                          [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:15:29:[m[K [01;31m[Kerror: [m[Kexpected ‘[01m[K;[m[K’ at end of member declaration
+   15 |     rclcpp::Publisher<Num>::[01;31m[KSharedPtr[m[K j_pub;
+      |                             [01;31m[K^~~~~~~~~[m[K
+      |                                      [32m[K;[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:15:39:[m[K [01;31m[Kerror: [m[K‘[01m[Kj_pub[m[K’ does not name a type
+   15 |     rclcpp::Publisher<Num>::SharedPtr [01;31m[Kj_pub[m[K;
+      |                                       [01;31m[K^~~~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:16:5:[m[K [01;31m[Kerror: [m[K‘[01m[KNum[m[K’ does not name a type
+   16 |     [01;31m[KNum[m[K AAA;
+      |     [01;31m[K^~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In constructor ‘[01m[KJoypubsub::Joypubsub()[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:23:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kj_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kj_sub[m[K’?
+   23 |         [01;31m[Kj_pub[m[K = create_publisher<Num>("Num", 10);
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kj_sub[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:23:34:[m[K [01;31m[Kerror: [m[K‘[01m[KNum[m[K’ was not declared in this scope; did you mean ‘[01m[Ktutorial_interfaces::msg::Num[m[K’?
+   23 |         j_pub = create_publisher<[01;31m[KNum[m[K>("Num", 10);
+      |                                  [01;31m[K^~~[m[K
+      |                                  [32m[Ktutorial_interfaces::msg::Num[m[K
+In file included from [01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/num.hpp:7[m[K,
+                 from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:6[m[K:
+[01m[K/home/sangjun/joy_ws/install/tutorial_interfaces/include/tutorial_interfaces/msg/detail/num__struct.hpp:121:7:[m[K [01;36m[Knote: [m[K‘[01m[Ktutorial_interfaces::msg::Num[m[K’ declared here
+  121 | using [01;36m[KNum[m[K =
+      |       [01;36m[K^~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:23:48:[m[K [01;31m[Kerror: [m[Kno matching function for call to ‘[01m[KJoypubsub::create_publisher<<expression error> >(const char [4], int)[m[K’
+   23 |         j_pub = create_publisher<Num>("Num", 10[01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+In file included from [01m[K/opt/ros/foxy/include/rclcpp/executors/single_threaded_executor.hpp:28[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/executors.hpp:22[m[K,
+                 from [01m[K/opt/ros/foxy/include/rclcpp/rclcpp.hpp:146[m[K,
+                 from [01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:4[m[K:
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[Kcandidate: ‘[01m[Ktemplate<class MessageT, class AllocatorT, class PublisherT> std::shared_ptr<PublisherT> rclcpp::Node::create_publisher(const string&, const rclcpp::QoS&, const rclcpp::PublisherOptionsWithAllocator<AllocatorT>&)[m[K’
+  184 |   [01;36m[Kcreate_publisher[m[K(
+      |   [01;36m[K^~~~~~~~~~~~~~~~[m[K
+[01m[K/opt/ros/foxy/include/rclcpp/node.hpp:184:3:[m[K [01;36m[Knote: [m[K  template argument deduction/substitution failed:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:23:48:[m[K [01;31m[Kerror: [m[Ktemplate argument 1 is invalid
+   23 |         j_pub = create_publisher<Num>("Num", 10[01;31m[K)[m[K;
+      |                                                [01;31m[K^[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:[m[K In member function ‘[01m[Kvoid Joypubsub::sub_callback(sensor_msgs::msg::Joy_<std::allocator<void> >::SharedPtr)[m[K’:
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:28:9:[m[K [01;31m[Kerror: [m[K‘[01m[KAAA[m[K’ was not declared in this scope
+   28 |         [01;31m[KAAA[m[K.num = msg->axes[0];
+      |         [01;31m[K^~~[m[K
+[01m[K/home/sangjun/joy_ws/src/joyst_package/src/joyst.cpp:29:9:[m[K [01;31m[Kerror: [m[K‘[01m[Kj_pub[m[K’ was not declared in this scope; did you mean ‘[01m[Kj_sub[m[K’?
+   29 |         [01;31m[Kj_pub[m[K->publish(AAA);
+      |         [01;31m[K^~~~~[m[K
+      |         [32m[Kj_sub[m[K
+make[2]: *** [CMakeFiles/joyst_node.dir/build.make:76: CMakeFiles/joyst_node.dir/src/joyst.cpp.o] Error 1
+make[1]: *** [CMakeFiles/Makefile2:137: CMakeFiles/joyst_node.dir/all] Error 2
+make: *** [Makefile:146: all] Error 2

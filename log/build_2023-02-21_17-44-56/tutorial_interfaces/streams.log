@@ -1,0 +1,55 @@
+[0.012s] Invoking command in '/home/sangjun/joy_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/tutorial_interfaces -- -j8 -l8
+[0.029s] -- Found ament_cmake: 0.9.11 (/opt/ros/foxy/share/ament_cmake/cmake)
+[0.054s] -- Found PythonInterp: /usr/bin/python3 (found suitable version "3.8.10", minimum required is "3") 
+[0.054s] -- Using PYTHON_EXECUTABLE: /usr/bin/python3
+[0.182s] -- Override CMake install command with custom implementation using symlinks instead of copying resources
+[0.191s] -- Found rosidl_default_generators: 1.0.1 (/opt/ros/foxy/share/rosidl_default_generators/cmake)
+[0.194s] -- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c
+[0.196s] -- Found rosidl_adapter: 1.3.0 (/opt/ros/foxy/share/rosidl_adapter/cmake)
+[0.307s] -- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp
+[0.351s] -- Found PythonInterp: /usr/bin/python3 (found version "3.8.10") 
+[0.479s] [31mCMake Error at /opt/ros/foxy/share/rosidl_adapter/cmake/rosidl_adapt_interfaces.cmake:60 (message):
+[0.479s]   execute_process(/usr/bin/python3 -m rosidl_adapter --package-name
+[0.479s]   tutorial_interfaces --arguments-file
+[0.479s]   /home/sangjun/joy_ws/build/tutorial_interfaces/rosidl_adapter__arguments__tutorial_interfaces.json
+[0.479s]   --output-dir
+[0.479s]   /home/sangjun/joy_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces
+[0.479s]   --output-file
+[0.479s]   /home/sangjun/joy_ws/build/tutorial_interfaces/rosidl_adapter/tutorial_interfaces.idls)
+[0.479s]   returned error code 1:
+[0.479s] 
+[0.479s]   Error processing 'float32 LeftStickAngle' of 'tutorial_interfaces/Num':
+[0.480s]   ''LeftStickAngle' is an invalid field name.  It should have the pattern
+[0.480s]   '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$''
+[0.480s] 
+[0.480s]   Traceback (most recent call last):
+[0.480s] 
+[0.480s]     File "/usr/lib/python3.8/runpy.py", line 194, in _run_module_as_main
+[0.480s]       return _run_code(code, main_globals, None,
+[0.480s]     File "/usr/lib/python3.8/runpy.py", line 87, in _run_code
+[0.480s]       exec(code, run_globals)
+[0.480s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__main__.py", line 19, in <module>
+[0.480s]       sys.exit(main())
+[0.481s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/main.py", line 53, in main
+[0.481s]       abs_idl_file = convert_to_idl(
+[0.481s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/__init__.py", line 19, in convert_to_idl
+[0.481s]       return convert_msg_to_idl(
+[0.481s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/msg/__init__.py", line 28, in convert_msg_to_idl
+[0.481s]       msg = parse_message_string(package_name, input_file.stem, content)
+[0.481s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 515, in parse_message_string
+[0.481s]       fields.append(Field(
+[0.481s]     File "/opt/ros/foxy/lib/python3.8/site-packages/rosidl_adapter/parser.py", line 353, in __init__
+[0.481s]       raise NameError(
+[0.481s] 
+[0.481s]   NameError: 'LeftStickAngle' is an invalid field name.  It should have the
+[0.482s]   pattern '^(?!.*__)(?!.*_$)[a-z][a-z0-9_]*$'
+[0.482s] 
+[0.482s] Call Stack (most recent call first):
+[0.482s]   /opt/ros/foxy/share/rosidl_cmake/cmake/rosidl_generate_interfaces.cmake:130 (rosidl_adapt_interfaces)
+[0.482s]   CMakeLists.txt:25 (rosidl_generate_interfaces)
+[0.482s] 
+[0.482s] [0m
+[0.482s] -- Configuring incomplete, errors occurred!
+[0.482s] See also "/home/sangjun/joy_ws/build/tutorial_interfaces/CMakeFiles/CMakeOutput.log".
+[0.484s] make: *** [Makefile:719: cmake_check_build_system] Error 1
+[0.486s] Invoked command in '/home/sangjun/joy_ws/build/tutorial_interfaces' returned '2': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/tutorial_interfaces -- -j8 -l8

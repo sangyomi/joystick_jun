@@ -1,0 +1,23 @@
+[0.007s] Invoking command in '/home/sangjun/joy_ws/build/joyst_package': AMENT_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[0.035s] [100%] Built target joyst_node
+[0.039s] Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': AMENT_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[0.057s] Invoking command in '/home/sangjun/joy_ws/build/joyst_package': AMENT_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package
+[0.060s] -- Install configuration: ""
+[0.061s] -- Execute custom install script
+[0.062s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/lib/joyst_package/joyst_node
+[0.062s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/package_run_dependencies/joyst_package
+[0.062s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/parent_prefix_path/joyst_package
+[0.063s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/ament_prefix_path.sh
+[0.063s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/ament_prefix_path.dsv
+[0.063s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/path.sh
+[0.064s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/environment/path.dsv
+[0.064s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.bash
+[0.064s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.sh
+[0.064s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.zsh
+[0.064s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/local_setup.dsv
+[0.065s] -- Symlinking: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.dsv
+[0.067s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/ament_index/resource_index/packages/joyst_package
+[0.067s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/cmake/joyst_packageConfig.cmake
+[0.067s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/cmake/joyst_packageConfig-version.cmake
+[0.068s] -- Up-to-date symlink: /home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.xml
+[0.071s] Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': AMENT_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib${LD_LIBRARY_PATH} PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages${PYTHONPATH} /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package

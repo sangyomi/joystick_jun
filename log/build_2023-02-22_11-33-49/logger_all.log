@@ -1,0 +1,222 @@
+[0.113s] DEBUG:colcon:Command line arguments: ['/usr/bin/colcon', 'build', '--symlink-install']
+[0.113s] DEBUG:colcon:Parsed command line arguments: Namespace(allow_overriding=[], ament_cmake_args=None, base_paths=['.'], build_base='build', catkin_cmake_args=None, catkin_skip_building_tests=False, cmake_args=None, cmake_clean_cache=False, cmake_clean_first=False, cmake_force_configure=False, cmake_target=None, cmake_target_skip_unavailable=False, continue_on_error=False, event_handlers=None, executor='parallel', ignore_user_meta=False, install_base='install', log_base=None, log_level=None, main=<bound method BuildVerb.main of <colcon_core.verb.build.BuildVerb object at 0x7faec59006a0>>, merge_install=False, metas=['./colcon.meta'], packages_above=None, packages_above_and_dependencies=None, packages_above_depth=None, packages_end=None, packages_ignore=None, packages_ignore_regex=None, packages_select=None, packages_select_build_failed=False, packages_select_by_dep=None, packages_select_regex=None, packages_select_test_failures=False, packages_skip=None, packages_skip_build_finished=False, packages_skip_by_dep=None, packages_skip_regex=None, packages_skip_test_passed=False, packages_skip_up_to=None, packages_start=None, packages_up_to=None, packages_up_to_regex=None, parallel_workers=8, paths=None, symlink_install=True, test_result_base=None, verb_extension=<colcon_core.verb.build.BuildVerb object at 0x7faec59006a0>, verb_name='build', verb_parser=<colcon_defaults.argument_parser.defaults.DefaultArgumentsDecorator object at 0x7faec5900be0>)
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) check parameters
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(colcon_meta) discover
+[0.130s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) discover
+[0.130s] INFO:colcon.colcon_core.package_discovery:Crawling recursively for packages in '/home/sangjun/joy_ws'
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ignore', 'ignore_ament_install']
+[0.130s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ignore_ament_install'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_pkg']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_pkg'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['colcon_meta']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
+[0.131s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['cmake', 'python']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'cmake'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['python_setup_py']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'python_setup_py'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) by extension 'ignore'
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(build) ignored
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extensions ['ignore', 'ignore_ament_install']
+[0.139s] Level 1:colcon.colcon_core.package_identification:_identify(install) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(install) ignored
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(log) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(log) ignored
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['colcon_meta']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'colcon_meta'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['ros']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'ros'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['cmake', 'python']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'cmake'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extensions ['python_setup_py']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src) by extension 'python_setup_py'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extensions ['ignore', 'ignore_ament_install']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extension 'ignore'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extension 'ignore_ament_install'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extensions ['colcon_pkg']
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extension 'colcon_pkg'
+[0.140s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extensions ['colcon_meta']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extension 'colcon_meta'
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extensions ['ros']
+[0.141s] Level 1:colcon.colcon_core.package_identification:_identify(src/joyst_package) by extension 'ros'
+[0.149s] DEBUG:colcon.colcon_core.package_identification:Package 'src/joyst_package' with type 'ros.ament_cmake' and name 'joyst_package'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ignore', 'ignore_ament_install']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ignore_ament_install'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_pkg']
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_pkg'
+[0.149s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['colcon_meta']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'colcon_meta'
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extensions ['ros']
+[0.150s] Level 1:colcon.colcon_core.package_identification:_identify(src/tutorial_interfaces) by extension 'ros'
+[0.150s] DEBUG:colcon.colcon_core.package_identification:Package 'src/tutorial_interfaces' with type 'ros.ament_cmake' and name 'tutorial_interfaces'
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
+[0.150s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) check parameters
+[0.165s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) discover
+[0.167s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 2 installed packages in /home/sangjun/joy_ws/install
+[0.168s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 14 installed packages in /home/sangjun/gcamp_ros2_ws/install
+[0.169s] DEBUG:colcon.colcon_installed_package_information.package_discovery:Found 307 installed packages in /opt/ros/foxy
+[0.170s] Level 1:colcon.colcon_core.package_discovery:discover_packages(prefix_path) using defaults
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_cache' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_clean_first' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'cmake_force_configure' from command line to 'False'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'ament_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_cmake_args' from command line to 'None'
+[0.226s] Level 5:colcon.colcon_core.verb:set package 'tutorial_interfaces' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.226s] DEBUG:colcon.colcon_core.verb:Building package 'tutorial_interfaces' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/joy_ws/build/tutorial_interfaces', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/joy_ws/install/tutorial_interfaces', 'merge_install': False, 'path': '/home/sangjun/joy_ws/src/tutorial_interfaces', 'symlink_install': True, 'test_result_base': None}
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_target' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_clean_cache' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_clean_first' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'cmake_force_configure' from command line to 'False'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'ament_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'catkin_cmake_args' from command line to 'None'
+[0.227s] Level 5:colcon.colcon_core.verb:set package 'joyst_package' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.227s] DEBUG:colcon.colcon_core.verb:Building package 'joyst_package' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/sangjun/joy_ws/build/joyst_package', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/sangjun/joy_ws/install/joyst_package', 'merge_install': False, 'path': '/home/sangjun/joy_ws/src/joyst_package', 'symlink_install': True, 'test_result_base': None}
+[0.228s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
+[0.230s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
+[0.230s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/joy_ws/src/tutorial_interfaces' with build type 'ament_cmake'
+[0.230s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/joy_ws/src/tutorial_interfaces'
+[0.236s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
+[0.237s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.237s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.249s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/joy_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/tutorial_interfaces -- -j8 -l8
+[0.340s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/joy_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/tutorial_interfaces -- -j8 -l8
+[0.385s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/joy_ws/build/tutorial_interfaces': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/tutorial_interfaces
+[0.439s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.440s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/joy_ws/build/tutorial_interfaces' returned '0': CMAKE_PREFIX_PATH=${CMAKE_PREFIX_PATH}:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/tutorial_interfaces
+[0.443s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces' for CMake module files
+[0.444s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces' for CMake config files
+[0.444s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.446s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.447s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.448s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib'
+[0.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.451s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/bin'
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[0.451s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[0.453s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[0.454s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/bin'
+[0.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.456s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.457s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.457s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/joy_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.497s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(tutorial_interfaces)
+[0.500s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces' for CMake module files
+[0.501s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces' for CMake config files
+[0.501s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'cmake_prefix_path')
+[0.502s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.ps1'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.dsv'
+[0.503s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/cmake_prefix_path.sh'
+[0.504s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib'
+[0.504s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'ld_library_path_lib')
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.ps1'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.dsv'
+[0.506s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/ld_library_path_lib.sh'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/bin'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib/pkgconfig/tutorial_interfaces.pc'
+[0.507s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages'
+[0.507s] Level 1:colcon.colcon_core.shell:create_environment_hook('tutorial_interfaces', 'pythonpath')
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.ps1'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.dsv'
+[0.509s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/hook/pythonpath.sh'
+[0.510s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/tutorial_interfaces/bin'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.ps1'
+[0.511s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.dsv'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.sh'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.bash'
+[0.512s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/tutorial_interfaces/share/tutorial_interfaces/package.zsh'
+[0.512s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/joy_ws/install/tutorial_interfaces/share/colcon-core/packages/tutorial_interfaces)
+[0.513s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/sangjun/joy_ws/src/joyst_package' with build type 'ament_cmake'
+[0.513s] INFO:colcon.colcon_cmake.task.cmake.build:Building CMake package in '/home/sangjun/joy_ws/src/joyst_package'
+[0.514s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
+[0.514s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
+[0.527s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/joy_ws/build/joyst_package': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[6.373s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --build /home/sangjun/joy_ws/build/joyst_package -- -j8 -l8
+[6.396s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/sangjun/joy_ws/build/joyst_package': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package
+[6.409s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joyst_package)
+[6.412s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package' for CMake module files
+[6.413s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/sangjun/joy_ws/build/joyst_package' returned '0': CMAKE_PREFIX_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces:/home/sangjun/joy_ws/install/joyst_package:/home/sangjun/gcamp_ros2_ws/install/slam_gmapping:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping:/home/sangjun/gcamp_ros2_ws/install/gcamp_gazebo:/home/sangjun/gcamp_ros2_ws/install/cpp_service_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_action_pkg:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces:/home/sangjun/gcamp_ros2_ws/install/cpp_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_service_tutorial:/home/sangjun/gcamp_ros2_ws/install/cpp_param_pkg:/home/sangjun/gcamp_ros2_ws/install/cpp_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg:/opt/ros/foxy LD_LIBRARY_PATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib:/home/sangjun/gcamp_ros2_ws/install/openslam_gmapping/lib:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib:/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/foxy/opt/yaml_cpp_vendor/lib:/opt/ros/foxy/opt/rviz_ogre_vendor/lib:/opt/ros/foxy/lib/x86_64-linux-gnu:/opt/ros/foxy/lib:/raisim/linux/lib PYTHONPATH=/home/sangjun/joy_ws/install/tutorial_interfaces/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_topic_pkg:/home/sangjun/gcamp_ros2_ws/install/py_topic_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_service_pkg:/home/sangjun/gcamp_ros2_ws/install/py_service_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_first_pkg:/home/sangjun/gcamp_ros2_ws/install/py_first_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/build/py_action_pkg:/home/sangjun/gcamp_ros2_ws/install/py_action_pkg/lib/python3.8/site-packages:/home/sangjun/gcamp_ros2_ws/install/custom_interfaces/lib/python3.8/site-packages:/opt/ros/foxy/lib/python3.8/site-packages:/raisim/linux/lib /usr/local/bin/cmake --install /home/sangjun/joy_ws/build/joyst_package
+[6.413s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package' for CMake config files
+[6.413s] Level 1:colcon.colcon_core.shell:create_environment_hook('joyst_package', 'cmake_prefix_path')
+[6.415s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.ps1'
+[6.416s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.dsv'
+[6.416s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.sh'
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib'
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/bin'
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib/pkgconfig/joyst_package.pc'
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib/python3.8/site-packages'
+[6.417s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/bin'
+[6.419s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.ps1'
+[6.419s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.dsv'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.sh'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.bash'
+[6.420s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.zsh'
+[6.420s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/joy_ws/install/joyst_package/share/colcon-core/packages/joyst_package)
+[6.444s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(joyst_package)
+[6.447s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package' for CMake module files
+[6.447s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package' for CMake config files
+[6.448s] Level 1:colcon.colcon_core.shell:create_environment_hook('joyst_package', 'cmake_prefix_path')
+[6.449s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.ps1'
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment descriptor '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.dsv'
+[6.450s] INFO:colcon.colcon_core.shell:Creating environment hook '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/hook/cmake_prefix_path.sh'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/bin'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib/pkgconfig/joyst_package.pc'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/lib/python3.8/site-packages'
+[6.451s] Level 1:colcon.colcon_core.environment:checking '/home/sangjun/joy_ws/install/joyst_package/bin'
+[6.454s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.ps1'
+[6.454s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.dsv'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.sh'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.bash'
+[6.455s] INFO:colcon.colcon_core.shell:Creating package script '/home/sangjun/joy_ws/install/joyst_package/share/joyst_package/package.zsh'
+[6.456s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/sangjun/joy_ws/install/joyst_package/share/colcon-core/packages/joyst_package)
+[6.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
+[6.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
+[6.456s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '0'
+[6.456s] DEBUG:colcon.colcon_core.event_reactor:joining thread
+[6.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.terminal_notifier': Not used on non-Darwin systems
+[6.463s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_notification.desktop_notification.win32': Not used on non-Windows systems
+[6.463s] INFO:colcon.colcon_notification.desktop_notification:Sending desktop notification using 'notify2'
+[6.474s] DEBUG:colcon.colcon_core.event_reactor:joined thread
+[6.476s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/joy_ws/install/local_setup.ps1'
+[6.477s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sangjun/joy_ws/install/_local_setup_util_ps1.py'
+[6.479s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/joy_ws/install/setup.ps1'
+[6.481s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/joy_ws/install/local_setup.sh'
+[6.481s] INFO:colcon.colcon_core.shell:Creating prefix util module '/home/sangjun/joy_ws/install/_local_setup_util_sh.py'
+[6.482s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/joy_ws/install/setup.sh'
+[6.485s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/joy_ws/install/local_setup.bash'
+[6.486s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/joy_ws/install/setup.bash'
+[6.488s] INFO:colcon.colcon_core.shell:Creating prefix script '/home/sangjun/joy_ws/install/local_setup.zsh'
+[6.488s] INFO:colcon.colcon_core.shell:Creating prefix chain script '/home/sangjun/joy_ws/install/setup.zsh'
